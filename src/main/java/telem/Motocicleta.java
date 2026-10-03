@@ -11,6 +11,10 @@ public class Motocicleta extends Vehiculo {
         this.cilindrada = cilindrada;
     }
 
+    public String getTipo(){
+        return "Motocicleta";
+    }
+
     public int getCilindrada() {
         return cilindrada;
     }

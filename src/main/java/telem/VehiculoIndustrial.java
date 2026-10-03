@@ -15,6 +15,10 @@ public class VehiculoIndustrial extends Vehiculo {
         this.numeroEjes = numeroEjes;
     }
 
+    public String getTipo(){
+        return "VehiculoIndustrial";
+    }
+
     public int getCapacidadCarga() {
         return capacidadCarga;
     }

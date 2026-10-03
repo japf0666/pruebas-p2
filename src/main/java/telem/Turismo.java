@@ -13,6 +13,10 @@ public class Turismo extends Vehiculo {
         this.capacidadMaletero = capacidadMaletero;
     }
 
+    public String getTipo(){
+        return "Turismo";
+    }
+
     public int getPlazas() {
         return plazas;
     }
